@@ -20,7 +20,7 @@ This app is a fresh `create-expo-app --template blank-typescript@sdk-58` project
 | `react`        | `19.3.0`           |
 | `react-native` | `0.88.0-rc.1`      |
 
-Tested with Xcode 27.0 and an iPhone 17 simulator on iOS 27.0, macOS 27.0, Node 24.
+Tested only on iOS, with Xcode 27.0 and an iPhone 17 simulator on iOS 27.0, macOS 27.0, Node 24. Not tested on Android.
 
 ## Reproduce without a simulator (fastest)
 
