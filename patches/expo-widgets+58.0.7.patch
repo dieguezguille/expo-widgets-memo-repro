@@ -1,0 +1,10 @@
+diff --git a/node_modules/expo-widgets/bundle/react-stub.ts b/node_modules/expo-widgets/bundle/react-stub.ts
+index dc78634..018b6e4 100644
+--- a/node_modules/expo-widgets/bundle/react-stub.ts
++++ b/node_modules/expo-widgets/bundle/react-stub.ts
+@@ -28,3 +28,5 @@ export const createContext = <T>(defaultValue: T): StubContext<T> => ({
+ });
+ 
+ export const useContext = <T>(context: StubContext<T>): T => context._currentValue;
++
++export const memo = <T>(component: T): T => component;
