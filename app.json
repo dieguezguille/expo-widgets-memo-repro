@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "expo-widgets-memo-repro",
+    "slug": "expo-widgets-memo-repro",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "bundleIdentifier": "com.example.widgetsmemo"
+    },
+    "plugins": [
+      ["expo-widgets", { "groupIdentifier": "group.com.example.widgetsmemo" }]
+    ]
+  }
+}
